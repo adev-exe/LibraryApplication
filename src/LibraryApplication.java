@@ -3,8 +3,8 @@ package src;
 /**
  * @author adev-exe
  * This class is the main method. It prints out a menu for user to choice what they want to do. The program loads 
- * data then the user can decide to add,remove,update, sort, and receives all books by publisher. Once the user
- * exits if there was any changes it saves data back in to the same textFile
+ * data then the user can decide to add,remove,update, sort, and print all books by publisher. Once the user
+ * exits, if there was any changes it saves data back in to the same textFile
  */
 
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class LibraryApplication {
 
         BookCatalog library = new BookCatalog();
 
-        // final name stays the same for the whole program unless changed
+        // final name stays the same for the whole program
         final String fileName = "bookCatalog.txt";
 
         String ISBN;
